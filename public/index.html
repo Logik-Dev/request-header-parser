@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Request Header Parser</title>
+</head>
+<body>
+    <div id="page">
+        <h1 id="title">Request Header Parser</h1>
+        <main id="content">
+
+            <h2 class="subtitle">Cahier des charges:</h2>
+            <p>L'<b>API</b> me permet de voir mon <b>IP</b>, mes <b>langues</b> favorites(grâce au header Accept-Language), ainsi que des informations sur mon <b>système</b>(grâce au header User-Agent) pour mon terminal.</p>
+
+            <h2 class="subtitle">Exemple d'utilisation:</h2>
+            <p><a href="api/whoami">[url_du_projet]/api/whoami</a></p>
+
+            <h2 class="subtitle">Exemple d'affichage:</h2>
+            <p class="json">{"ipaddress":"159.20.14.100","language":"en-US,en;q=0.5",
+                    "software":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0"}</p>
+        </main>
+    </div>
+</body>
+</html>
